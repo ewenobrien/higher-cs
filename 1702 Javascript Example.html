@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Name Colour</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        span {
+            font-size: 60px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <span id="letter1"
+        onmouseover="handleMouseOver1()"
+        onmouseout="handleMouseOut1()"
+        onclick="handleClick1()">E</span>
+
+    <span id="letter2"
+        onmouseover="handleMouseOver2()"
+        onmouseout="handleMouseOut2()"
+        onclick="handleClick2()">W</span>
+
+    <span id="letter3"
+        onmouseover="handleMouseOver3()"
+        onmouseout="handleMouseOut3()"
+        onclick="handleClick3()">E</span>
+
+    <span id="letter4"
+        onmouseover="handleMouseOver4()"
+        onmouseout="handleMouseOut4()"
+        onclick="handleClick4()">N</span>
+
+    <script>
+
+        function handleMouseOver1() {
+            document.getElementById("letter1").style.color = "red";
+        }
+
+        function handleMouseOut1() {
+            document.getElementById("letter1").style.color = "black";
+        }
+
+        function handleClick1() {
+            document.getElementById("letter1").style.color = "blue";
+        }
+
+        function handleMouseOver2() {
+            document.getElementById("letter2").style.color = "red";
+        }
+
+        function handleMouseOut2() {
+            document.getElementById("letter2").style.color = "black";
+        }
+
+        function handleClick2() {
+            document.getElementById("letter2").style.color = "blue";
+        }
+
+        function handleMouseOver3() {
+            document.getElementById("letter3").style.color = "red";
+        }
+
+        function handleMouseOut3() {
+            document.getElementById("letter3").style.color = "black";
+        }
+
+        function handleClick3() {
+            document.getElementById("letter3").style.color = "blue";
+        }
+
+        function handleMouseOver4() {
+            document.getElementById("letter4").style.color = "red";
+        }
+
+        function handleMouseOut4() {
+            document.getElementById("letter4").style.color = "black";
+        }
+
+        function handleClick4() {
+            document.getElementById("letter4").style.color = "blue";
+        }
+
+    </script>
+
+</body>
+</html>

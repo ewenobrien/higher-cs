@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Name Colour</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div
+      onmouseover="handleMouseOver('letter1')"
+      onmouseout="handleMouseOut('letter1')"
+      onclick="handleClick('letter1')"
+    >
+      <p id="letter1">E</p>
+    </div>
+
+    <div
+      onmouseover="handleMouseOver('letter2')"
+      onmouseout="handleMouseOut('letter2')"
+      onclick="handleClick('letter2')"
+    >
+      <p id="letter2">W</p>
+    </div>
+
+    <div
+      onmouseover="handleMouseOver('letter3')"
+      onmouseout="handleMouseOut('letter3')"
+      onclick="handleClick('letter3')"
+    >
+      <p id="letter3">E</p>
+    </div>
+
+    <div
+      onmouseover="handleMouseOver('letter4')"
+      onmouseout="handleMouseOut('letter4')"
+      onclick="handleClick('letter4')"
+    >
+      <p id="letter4">N</p>
+    </div>
+
+    <script>
+      function handleMouseOver(letter) {
+        document.getElementById(letter).style.color = "red";
+      }
+
+      function handleMouseOut(letter) {
+        document.getElementById(letter).style.color = "black";
+      }
+
+      function handleClick(letter) {
+        document.getElementById(letter).style.color = "blue";
+      }
+    </script>
+
+  </body>
+</html>
