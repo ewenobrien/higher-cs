@@ -1,0 +1,38 @@
+#section1 p {
+
+    color: green
+}
+
+#li1 ol {
+    color: blue
+}
+
+#header1 h2 {
+    background-color: yellow;
+}
+
+#form1 input {
+    color: red;
+}
+
+h1, h2 {
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+a, button {
+    color: purple;
+}
+
+pre, code {
+    background-color: lightblue;
+}
+
+#nav1 a {
+    color: darkgreen;
+}
+
+header, footer {
+    background-color: lightgray;
+}
