@@ -8,7 +8,11 @@ for index in range(5):
 
 for index in range(5):
     mark = int(input("Enter your mark out of 100"))
-    marks.append(mark)
+    while mark > 100 or mark < 0:
+        print("Invalid number")
+        break
+    else:
+        marks.append(mark)
     
 print ("Marks are as follows", marks)
 print ("Names are as follows", names)
